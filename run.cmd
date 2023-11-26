@@ -1,0 +1,1 @@
+python3 main.py -f ./old_courses_gpx/huzhou_30km_north.gpx -t ./new_courses_gpx/huzhou_30km_north.gpx

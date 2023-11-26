@@ -23,7 +23,7 @@ def kml_wgs84_2_gcj02(from_path: str, to_path: str) -> None:
 
 
 def gpx_wgs84_2_gcj02(from_path: str, to_path: str) -> None:
-    with open(from_path, 'rb') as f:
+    with open(from_path, 'r') as f:
         gpx_old = gpxpy.parse(f)
         gpx_new = gpxpy.gpx.GPX()
 
